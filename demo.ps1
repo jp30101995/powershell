@@ -5,6 +5,6 @@ cd powershell
 ls
 git status
 git checkout v1
-[System.IO.File]::WriteAllText("./demo2.ps1", "Write-Host \"Congratulations! Your second script executed successfully!!\"")
+[System.IO.File]::WriteAllText("./demo2.ps1", "Write-Host 'Congratulations! Your second script executed successfully!!'")
 git status
 ls
