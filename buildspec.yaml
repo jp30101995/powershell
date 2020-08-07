@@ -4,6 +4,6 @@ env:
 phases:
   build:
     commands:
-#        - git checkout v1
-#        - cd powershell
+       - git checkout v1
+       - cd powershell
        - ./demo.ps1
