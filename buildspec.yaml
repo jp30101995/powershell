@@ -4,7 +4,7 @@ env:
 phases:
   build:
     commands:
-       - echo CODEBUILD_INITIATOR
+       - echo ${CODEBUILD_INITIATOR}
        - git clone https://github.com/jp30101995/gke-demo.git
        - git clone https://github.com/jp30101995/powershell.git
        - cd powershell
